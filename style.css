@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f7f4!important;
+    /* font-family: 'Nimbus Sans L', sans-serif; */
+    font-family: "Akshar", sans-serif;
+}
+
+  
+
+#main{
+    position: relative;
+}
+
+.home{
+    width: 100%;
+}
+
+
+
+/* Main Css Starts From Here */
+
+header,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* Navbar STarts From HERE */
+
+#main_navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 7vw;
+    font-size: 1vw;
+    font-weight: 500;
+    position: relative;
+}
+
+.navbar-detais_left{
+    gap: 3vw;
+    display: flex;
+}
+
+.navbar-detais_left > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar-detais_right > a {
+    text-decoration: none;
+    color: #000;
+}
+
+#centre-navbar_tag{
+    position: absolute; 
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#centre-navbar_tag > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+
+/* Navbar closes over HERE */
+
+
+
+/* Middle Part Css Starts From Here */
+
+#main-middle_part{
+    width: 100%;
+    margin-top: 22vw;
+    padding: 0vw 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+.middle-dev_part{
+    width: 12vw;
+}
+.middle-dev_part h2{
+    font-size: 1.7vw;
+}
+.middle-dev_part h3{
+    font-size: 1.6vw;
+}
+.middle-dev_part p{
+    text-transform: capitalize;
+    font-size: 0.9vw;
+    line-height: 1;
+    margin: 0.7vw 0;
+    opacity: .7;
+}
+.middle-dev_part #main-dev_part_image{
+    width: 100%;
+    height: 17vw;
+}
+#main-dev_part_image > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.middle-dev_part2{
+    width: 30vw;
+    min-height: 42vw;
+    position: relative;
+}
+.middle-dev_part2 #middle-dev_part2-headings{
+    position: absolute;
+    top: -22%;
+    left: -16%;
+}
+.middle-dev_part2 h1{
+    letter-spacing: -.4vw;
+    font-size: 6vw;
+    line-height: 1;
+    font-weight: 500;
+
+}
+#main-dev_part2_image{
+    width: fit-content;
+    height: fit-content;
+}
+#main-dev_part2_image > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#main-dev_part2_image p{
+   /* position: absolute; */
+   letter-spacing: -.05vw;
+   font-size: 1.6vw;
+   width: 50%;
+   /* top: 93%; */
+   color: #5e5e5e;
+}
+
+
+
+.middle-dev_part-visit{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    color: #5e5e5e;
+    font-size: 1.2vw;
+    opacity: .6;
+}
+.middle-dev_part-visit .visit_circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    border: 2px solid #5e5e5e;
+}
+
+.visit_circle span{
+    color: #5e5e5e;
+    font-size: 2vw;
+}
+
+
+/* Middle Part Dev CSS CLosed HERE */
+
+
+/* Body CSS Starts FRom Here And Main Motive CSS too */
+
+#main_motive{
+    margin-top: 15vw;
+    padding: 3vw 7vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#main_motive h3{
+    color: #9f9f9f;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+#main_motive p {
+    width: 87%;
+    right: 0;
+    line-height: 1.9;
+    font-size: 1.6vw;
+    text-align: right;
+    position: relative;
+    margin-top: 10vw;
+    font-weight: 500;
+    color: #5b5b5b;
+}
+
+#main_motive span{
+    display: inline-block;
+    margin: 0 1vw;
+    border-radius: 100px;
+    margin-bottom: -1vw;
+}
+
+#main_motive #one{
+    width: 4.5vw;
+    height: 2.5vw;
+    background-image: url(./Images/bluegirl.jpg);
+    background-size: cover;
+}
+#main_motive #two{
+    width: 6vw;
+    height: 3vw;
+    background-image: url(./Images/onion.jpg);
+    background-size: cover;
+    background-position: 0 5vw;
+}
+#main_motive #three{
+    width: 4.5vw;
+    height: 2.5vw;
+    background-image: url(./Images/leaves.jpg);
+    background-size: cover;
+}
+
+
+
+/* Main Motive CSS ends  */
+
+
+/* main_motive_further-div_images Starts */
+
+#main_motive_further-div_images{
+    margin-top: 12vw;
+    padding: 3vw 12vw 3vw 14vw;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.main_motive_further-first_image{
+    width: 14vw;
+}
+
+.main_motive_further-first_image > img{
+    width: 100%;
+    border-radius: 0% 0 0 0;
+    background-size: cover;
+}
+
+.main_motive_further-first_image h3{
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.main_motive_further-first_image p{
+    font-size: 0.9vw;
+    width: 88%;
+    margin-top: 2%;
+    color: #727272;
+}
+
+
+/* Second_image */
+
+.main_motive_further-Second_image{
+    width: 22vw;
+    height: 40vw;
+    /* position: relative; */
+    text-align: end;
+    
+}
+
+.main_motive_further-Second_image > img{
+    width: 100%;
+    background-size: cover;
+}
+.main_motive_further-Second_image h2{
+    font-weight: 600;
+    font-size: 2vw;
+}
+.main_motive_further-Second_image p{
+    right: 0;
+    text-align: end;
+    font-size: 0.8vw;
+    margin-top: 2%;
+    color: #727272;
+    
+}
+
+
+/* Side Panel Main Motive  */
+
+
+#main_motive-side_image{
+    height: 43vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    justify-content: center;
+}
+#main_motive-side_panel_images{
+    height: 100%;
+    width: 100%;
+}
+#main_motive-side_panel_images > img{
+    width: 100%;
+    /* height: 95%; */
+    background-size: cover;
+}
+
+.main_motive-side_image_paragraph{
+    padding: 12vw 3vw;
+}
+.main_motive-side_image_paragraph h1{
+    font-weight: 500;
+    font-size: 3.5vw;
+    line-height: .9;
+    letter-spacing: -.1vw;
+}
+
+.main_motive-side_image_paragraph p{
+    margin-top: 10%;
+    font-size: 1.2vw;
+    color: #5b5b5b;
+    font-weight: 300;
+    letter-spacing: .01vw;
+}
+
+
+
+/* Main Motive Last Video Tag Css */
+
+#main_motive-last_video_tag{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+#main_motive-last_video_tag video{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1.1);
+    width: 100%;
+}
+
+#video_tag-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    padding: 3vw 5vw;
+    border-radius: 1.2vw;
+}
+#video_tag-text h4{
+    font-weight: 500;
+}
+
+#video_tag-text button{
+    padding: 1vw 2.2vw;
+    font-size: 1vw;
+    margin-top: .9vw;
+    border-radius: 50vh;
+    border: 1.5px solid grey;
+    background: #fff;
+    font-weight: 550;
+    color: rgb(82, 82, 82);
+    cursor:pointer;
+}
